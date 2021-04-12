@@ -11,8 +11,10 @@
 >> ### Requirements
 >>> For successfull submission of this bonus, this api must have:
 >>>> 1) A new resource with a relationship to the User
->>>> 2) 4 RESTful routes for handling [GET](), [POST](), [PUT/PATCH](), and [DELETE]()
+>>>> 2) 4 RESTful routes for handling GET, POST, PUT/PATCH, and DELETE
 >>>> 3) Actions that can change data are to be owned by the User performing the change
+>
+> ###### [(Return to top)](https://github.com/mmmoore1313/survey-api#bonus-alterations)
 >
 > ## Catalogue of Routes
 >> ### CheeseWheel Routes 
@@ -41,10 +43,24 @@
 >
 > ###### [(Return to top)](https://github.com/mmmoore1313/survey-api#bonus-alterations)
 >
+> ## Future Iterations
+>> - While demand for hearty havarti is high in the steppes of Skyrim, a parade for parmesian has yet to manifest here in the real world. As of now, maybe:
+>>> - Extra methods for the cheese varieties
+>
+> ###### [(Return to top)](https://github.com/mmmoore1313/survey-api#bonus-alterations)
+>
 > ## Technologies Employed
 >> | **General Development** | **[Client](https://github.com/mmmoore1313/survey-client) Development** | **[API](https://github.com/Mattastic-Voyage/survey-api) Development** | **Deployment** |
->> |--|--|--|--|
->> | [Technology Name](docs) | [Technology Name](docs) | [Technology Name](docs) | [Technology Name](docs) |
+>> |---|---|---|---|
+>> | [GitHub](https://github.com/) | [React](https://reactjs.org/) | [Express](https://expressjs.com) | [GH Pages](https://pages.github.com/) |
+>> | [Atom](https://atom.io/) | [React-Bootstrap](https://react-bootstrap.github.io/) | [Postman](https://www.postman.com/) | [Heroku](https://www.heroku.com) |
+>> | [VS Code](https://code.visualstudio.com/) | [Semantic UI React](https://react.semantic-ui.com/) | [MongoDB](https://www.mongodb.com/) | |
+>> | [GoogleSheets](https://docs.google.com/spreadsheets/d/1kJRGhsgKEV9xVL3lXtyz6cqBWf14lm6JuXD02uneldA/edit#gid=0) | | | |
+>> | [Google](https://www.google.com/) | | | |
+>> | [MDN Web Docs](https://developer.mozilla.org/en-US/) | | | |
+>> | [JavaScript](https://www.javascript.com/) | | | |
+>> | [CSS](https://www.w3schools.com/css/) | | | |
+>> | [SCSS](https://sass-lang.com/) | | | |
 >
 >
 > ###### [(Return to top)](https://github.com/mmmoore1313/survey-api#bonus-alterations)
