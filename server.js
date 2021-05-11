@@ -31,7 +31,7 @@ const clientDevPort = 7165
 // establish database connection
 // use new version of URL parser
 // use createIndex instead of deprecated ensureIndex
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/survey-bonus-project', db, {
+mongoose.connect(db, {
   useNewUrlParser: true,
   useCreateIndex: true,
   useUnifiedTopology: true
