@@ -1,6 +1,9 @@
 // require necessary NPM packages
+require('dotenv').config()
 const express = require('express')
 const mongoose = require('mongoose')
+
+
 const cors = require('cors')
 
 // require route files
@@ -29,7 +32,7 @@ const clientDevPort = 7165
 // establish database connection
 // use new version of URL parser
 // use createIndex instead of deprecated ensureIndex
-mongoose.connect(db, {
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/survey-bonus-project', db, {
   useNewUrlParser: true,
   useCreateIndex: true,
   useUnifiedTopology: true
